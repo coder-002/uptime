@@ -7,7 +7,6 @@ pub struct Monitor{
     pub timeout_secs:u64,
     pub monitor_type: MonitorType,
     pub retries: u32
-
 }
 
 #[derive(Clone, Copy)]
